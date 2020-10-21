@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/main.js"></script>
+</head>
+<body>
+<div class="calc">
+    <form action="">
+        <input type="text" name="math_field" id="math_field" readonly class="math_field" value="0">
+    </form>
+    <div class="butt_field">
+        <div class="button" onclick="clean()"><p>CA</p></div>
+        <div class="button" onclick="insertSym('.')"><p>&bull;</p></div>
+        <div class="button" onclick="back()"><p>&#8617;</p></div>
+        <div class="button" onclick="insertSym('/')"><p>/</p></div>
+        <!-- <div class="button" onclick="insertNum('%')"><p>%</p></div>
+        <div class="button" onclick="insertNum('')"><p>^</p></div>
+        <div class="button" onclick="insertNum('')"><p>x!</p></div>
+        <div class="button" onclick="insertNum('')"><p>&radic;x</p></div> -->
+        <div class="button" onclick="insertNum('7')">7</div>
+        <div class="button" onclick="insertNum('8')">8</div>
+        <div class="button" onclick="insertNum('9')">9</div>
+        <div class="button" onclick="insertSym('*')"><p>*</p></div>
+        <div class="button" onclick="insertNum('4')">4</div>
+        <div class="button" onclick="insertNum('5')">5</div>
+        <div class="button" onclick="insertNum('6')">6</div>
+        <div class="button" onclick="insertSym('-')"><p>-</p></div>
+        <div class="button" onclick="insertNum('1')">1</div>
+        <div class="button" onclick="insertNum('2')">2</div>
+        <div class="button" onclick="insertNum('3')">3</div>
+        <div class="button" onclick="insertSym('+')"><p>+</p></div>
+        <div class="button" onclick="insertNum('(')"><p>(</p></div>
+        <div class="button" onclick="insertNum('0')">0</div>
+        <div class="button" onclick="insertNum(')')"><p>)</p></div>
+        <div class="button" onclick="equal()"><p>=</p></div>
+    </div>
+</div>
+</body>
+</html>
